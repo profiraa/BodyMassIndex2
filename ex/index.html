@@ -4,16 +4,68 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Indice de masa corporala</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Body mass index</title>
 </head>
 <body>
+    <div id="navbar">
+        <img src="logo.png" alt="logo" width="200px">
+        <ul>
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#news">ABOUT BMI</a></li>
+            <li><a href="#contact">NUTRITION</a></li>
+            <li><a href="#about">CONTACT US</a></li>
+        </ul>
+    </div><br>
+
+    <div id="home">
+        <video autoplay loop muted>
+            <source src="lemons.mp4" type="video/mp4" width="100%vh" height="100%vh" id="myVideo">
+          </video>
+    </div>
+
+    <div id="about">
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The body mass index (BMI) - also body mass index (KMI), body mass number (KMZ) or Quetelet-Kaup index - is a measure of the weight of a person in relation to their height. It was developed by Adolphe Quetelet in 1832 and by Ignaz Kaup, after the First World War.<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The BMI relates the body mass (English mass, colloquially "weight") to the square of the body height. The BMI is only a rough guide, as it does not take into account stature and gender, nor the individual composition of a person's body mass, from fat and muscle tissue.<br>
+        <img src="bmi.jpg" alt="BMI">
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The term "body mass index" (BMI) comes from an article published in 1972, by Ancel Keys. Keys only recommended the BMI for the statistical comparison of populations, not for assessing the obesity of individuals. The BMI gained importance through its use by US life insurers, who use this simple classification to calculate premiums for life insurance in such a way, that additional risks from obesity are taken into account. The BMI has also been used by the World Health Organization since the early 1980s. The current BMI classification of WHO has essentially existed since 1995.</p></div>
+
+    <div class="formula">
         <label for="bodyweight">Bodyweight (kg)</label>
-        <input type="text" id="bodyweight"><br><br>
+        <input type="text" id="bodyweight" placeholder="60"><br><br>
         <label for="height">Height (m)</label>
-        <input type="text" id="height"><br><br>
+        <input type="text" id="height" placeholder="1.70"><br><br>
         <button id="click">Calculate</button><br><br>
         <p id="output"></p>
+        <p>What does it mean?</p><br></div>
 
+        <p style="color:blue"><b>Underweight</b><br>
+        Being underweight could be a sign you're not eating enough or you may be ill. If you're underweight, a GP can help.</p><br>
+
+        <p style="color:green"><b>Healthy weight</b><br>
+        Keep up the good work! For tips on maintaining a healthy weight, check out the nutrition and diet and fitness sections.</p><br>
+
+        <p style="color:orange"><b>Overweight</b><br>
+        The best way to lose weight if you're overweight is through a combination of diet and exercise.</p><br>
+
+        <p style="color:red"><b>Obese</b><br>
+        The best way to lose weight if you're obese is through a combination of diet and exercise, and, in some cases, medicines. See a GP for help and advice.</p><br>
+
+        <p style="color: brown"><b>Extremely obese / morbidly obese</b><br>
+        A person with morbid obesity may have difficulty performing daily functions, such as walking and breathing, and is at increased risk for many serious health problems.</p><br><br>
+
+        <p>Limitations of the BMI<br>
+        Your BMI can tell you if you're carrying too much weight, but it cannot tell if you're carrying too much fat.<br>
+        The BMI cannot tell the difference between excess fat, muscle or bone.<br>
+        The adult BMI does not take into account age, gender or muscle mass. This means:<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a) very muscular adults and athletes may be classed "overweight" or "obese" even though their body fat is low;<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b) adults who lose muscle as they get older may fall into the "healthy weight" range even though they may be carrying excess fat;<br>
+        <b>Pregnancy</b> will also affect a woman's BMI result. Your BMI will go up as your weight increases. You should use your pre-pregnancy weight when calculating your BMI.<br>
+        Apart from these limitations, the BMI is a relatively straightforward and convenient way of assessing someone's weight.<br><br><br>
+        <b>Eating disorders</b><br>
+        If you have an eating disorder, the BMI calculator results do not apply. Please get further advice from a GP.
+        </p>
+    
     <script src="app.js"></script>
 </body>
 </html>

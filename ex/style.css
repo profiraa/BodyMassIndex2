@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 25px;
+    letter-spacing: 1px;
+    font-family: Salsa;
+    background-color: black;
+}
+#navbar{
+    position: fixed;
+}
+#myVideo{
+    position: fixed;
+}
+ul{
+    list-style-type: none;
+}
+li a{
+    float: left;
+    display: block;
+    background-color:aqua;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 5px;
+    color: red;
+    align-items: right;
+    text-decoration: none;
+}
+#home{
+    margin:40px 5px 20px 5px;
+    display: block;
+}
+#about{
+    margin-top: 10px;
+    margin-left: 330px;
+    margin-right: 330px;
+    color: white; 
+}
+.formula{
+    margin: 100px 400px 30px 400px;
+    color: white;
+    align-items: right;
+}
+#bodyweight{
+    background-color: rgb(226, 205, 178);
+    padding: 5px;
+}
+#height{
+    background-color: rgb(226, 205, 178);
+    padding: 5px;
+}
+#click{
+    color: red;
+    background-color: aqua;
+    padding: 10px;
+    border-radius: 10px;
+}
+p{
+    color: white;
+    margin: 20px 20px 20px 320px;
+}
